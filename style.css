@@ -25,3 +25,8 @@ nav {
     padding: 5px 10px;
     display: block;
 }
+
+.menu a:hover {
+    background-color: #555;
+    color: #fff;
+}
