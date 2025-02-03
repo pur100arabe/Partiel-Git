@@ -26,6 +26,23 @@ nav {
     display: block;
 }
 
+.sousmenu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    background-color: #444;
+}
+
+.sousmenu li a {
+    padding: 5px 10px;
+}
+
+.menuderoulant:hover .sousmenu {
+    display: block;
+
 .menu a:hover {
     background-color: #555;
     color: #fff;
